@@ -134,20 +134,24 @@ function closeCart() {
         <section class="hero">
           <div class="hero__content">
             <p class="hero__eyebrow">Frete grátis acima de R$ 79</p>
-            <h1>Ganhe cashback para abastecer sua casa</h1>
-            <p>
-              Electronicos, mercado, moda e mais com entrega rápida e benefícios Mercado Pontos.
-            </p>
+            <h1>Cashback, frete rápido e ofertas que chegam voando</h1>
+            <p>Electronicos, mercado, moda e tudo mais com entrega ágil e pagamento seguro.</p>
 
             <div class="hero__cta">
               <button type="button">Ver ofertas do dia</button>
-              <span>Pagamento rápido com Mercado Pago</span>
+              <button class="ghost" type="button">Explorar categorias</button>
             </div>
+
+            <ul class="hero__highlights">
+              <li>💳 Parcele sem juros no Mercado Pago</li>
+              <li>⚡ Entrega rápida nas capitais</li>
+              <li>🔒 Compra protegida do pedido à entrega</li>
+            </ul>
           </div>
           <div class="hero__image">
             <img
-              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
-              alt="Pessoa feliz recebendo compras"
+              src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
+              alt="Cliente com sacolas de compras"
             />
           </div>
         </section>
@@ -399,11 +403,27 @@ main {
   cursor: pointer;
 }
 
+.hero__cta .ghost {
+  background: #fff;
+  color: #333;
+  border: 1px solid #d4b100;
+}
+
 .hero__image img {
   width: 100%;
   border-radius: 1rem;
   object-fit: cover;
   min-height: 240px;
+}
+
+.hero__highlights {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.4rem;
+  color: #3a3a3a;
+  font-size: 0.95rem;
 }
 
 .products {
