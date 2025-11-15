@@ -1,4 +1,4 @@
-# ecommerce
+# ecommerce..
 
 Estrutura para o ecommerce com frontend (Vue/Vite) na raiz e backend (API) em `backend/`.
 
